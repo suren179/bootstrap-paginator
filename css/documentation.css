@@ -119,3 +119,11 @@
 {
     width:300px;
 }
+
+.pagination ul > li > a:hover{
+	cursor: pointer;
+}
+
+.pagination ul > li.active > a:hover{
+	cursor: default;
+}

@@ -356,6 +356,7 @@
                     listContainer.append(last);
                 }
             }
+            this.$element.find('ul').addClass('pagination');
         },
 
         /**
